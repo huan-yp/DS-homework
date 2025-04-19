@@ -8,10 +8,14 @@
 
 - [左偏树-OI-Wiki](https://oi-wiki.org/ds/leftist-tree/)
 
-[左偏树(智能指针实现)](./leftist_tree/)
+- [左偏树(智能指针实现)](./leftist_tree/)
 
 ### AVL-Tree
 
 - [AVL-Tree-OI-Wiki](https://oi-wiki.org/ds/avl/)
 
-[AVL-Tree](./avl_tree/)
+- [AVL-Tree](./avl_tree/)
+
+### IntervalHeap
+
+- [IntervalHeap](./interval_heap/)
