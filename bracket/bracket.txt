@@ -1,0 +1,43 @@
+testing 1:(
+error on pos 1: no matched right braket found
+testing 2:/*(*/
+error on pos 3: unmatched left braket found
+testing 3:(())()()))()
+error on pos 9: no left braket found
+testing 4:[]{(})()
+error on pos 4: unmatched left braket found
+testing 5:[({((({[]})))})]
+Correct
+testing 6:(())ld()([[{[))dq)]}z]]()
+error on pos 13: unmatched left braket found
+testing 7:(())/*i*/{()[()]}()
+Correct
+testing 8:((g))()([[{[xq)))]}vaj]]()
+error on pos 12: unmatched left braket found
+testing 9:(({{))ld[()([[{[))dq)]}z]]()
+error on pos 4: unmatched left braket found
+(base) PS C:\Users\huany\Desktop\work_space\cpp_homework> g++ -o braket .\braket.cpp
+(base) PS C:\Users\huany\Desktop\work_space\cpp_homework> .\braket.exe
+testing 1:(
+error on pos 1 (: no matched right braket found
+testing 2:/*(*/
+error on pos 4 */: unmatched left braket found
+found ( at pos 3
+testing 3:(())()()))()
+error on pos 9 ): no left braket found
+testing 4:[]{(})()
+error on pos 5 }: unmatched left braket found
+found ( at pos 4
+testing 5:[({((({[]})))})]
+Correct
+testing 6:(())ld()([[{[))dq)]}z]]()
+error on pos 14 ): unmatched left braket found
+found [ at pos 13
+testing 7:(())/*i*/{()[()]}()
+Correct
+testing 8:((g))()([[{[xq)))]}vaj]]()
+error on pos 15 ): unmatched left braket found
+found [ at pos 12
+testing 9:(({{))ld[()([[{[))dq)]}z]]()
+error on pos 5 ): unmatched left braket found
+found { at pos 4
